@@ -1,9 +1,19 @@
-import React from 'react'
-
+import React from "react";
+import bvideo from "../assets/bVideo.mp4";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    
+      <div className="main">
+        <div className="overlay"></div>
+        <video src={bvideo} autoPlay muted loop></video>
+        <div className="content">
+          <h1>Welcome to my Site</h1>
+          <Link to="/explore">Explore More</Link>
+        </div>
+      </div>
+    
+  );
+};
 
-export default Home
+export default Home;
