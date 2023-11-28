@@ -1,10 +1,27 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home.js";
+import ChatBot from "./pages/ChatBot.js";
+import Phobias from "./pages/Phobias.js"
+import ExploreVR from "./pages/Explore_VR.js";
+import {Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      hello there hehehehe u dumbo
+
+    <div className="h-screen w-screen bg-gradient-to-t from-blue-950 to-zinc-950 text-white">
+
+      <Navbar/>
+
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/phobias" element={<Phobias/>}></Route>
+        <Route path="/chatbot" element={<ChatBot/>}></Route>
+        <Route path="/explore" element={<ExploreVR/>}></Route>
+      </Routes>
     </div>
+
+   
   );
 }
 
