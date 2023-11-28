@@ -8,7 +8,7 @@ const Home = () => {
         <div className="overlay"></div>
         <video src={bvideo} autoPlay muted loop></video>
         <div className="content">
-          <h1>Welcome to my Site</h1>
+          <h1>Welcome to my AntiPhobia</h1>
           <Link to="/explore">Explore More</Link>
         </div>
       </div>
