@@ -9,7 +9,7 @@ import {Route, Routes} from 'react-router-dom';
 function App() {
   return (
 
-    <div className="h-screen w-screen bg-gradient-to-t from-slate-700 to-black text-white">
+    <div className="h-screen w-screen bg-gradient-to-b from-black to-stone-800  text-white">
 
       <Navbar/>
 
