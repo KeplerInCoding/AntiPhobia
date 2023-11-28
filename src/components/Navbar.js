@@ -4,7 +4,7 @@ import logo from "../assets/main_logo.png";
 
 const Navbar = () => {
   return (
-    <div className='flex place-content-between items-center p-16 py-2 bg-gradient-to-r from-black to-slate-500'>
+    <div className='flex place-content-between items-center p-16 py-2 bg-gradient-to-r from-black to-slate-700'>
     <div>
       <Link to="/"><img className='h-16 mt-2' src={logo} alt="logo" loading="lazy"></img></Link>
       
