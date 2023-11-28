@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Explore_VR = () => {
+const ExploreVR = () => {
   return (
     <div>Explore_VR</div>
   )
 }
 
-export default Explore_VR
+export default ExploreVR
