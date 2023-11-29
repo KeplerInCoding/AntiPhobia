@@ -1,13 +1,11 @@
 import React from 'react'
 import './phobias.css';
-import data from '../Data'
 import { NavLink } from 'react-router-dom';
 
-console.log(data);
 
 const Phobias = () => {
   return (
-    <div>
+    <div className='pt-10'>
       <div>
         <div class="box-canvas">
           <div class="inner">
@@ -31,9 +29,9 @@ const Phobias = () => {
 
     </div>
 
-        <div className='w-screen h-screen absolute flex place-content-between top-32 '>
+        <div className='w-screen h-screen absolute flex place-content-between top-0 items-center'>
           
-          <div className='flex gap-28 flex-col ml-10'>
+          <div className='flex gap-28 flex-col ml-10 mt-20'>
 
                   <NavLink to={`/phobias/phobias1`}>
                   <div className=' 
@@ -53,7 +51,7 @@ const Phobias = () => {
           
           </div>
 
-          <div className='flex gap-28 flex-col mr-10'>
+          <div className='flex gap-28 flex-col mr-10  mt-20'>
 
                 <NavLink  to={`/phobias/phobias4`}>
                 <div className=' 

@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Cards = () => {
+const Cards = ({phobia}) => {
+    console.log(phobia);
   return (
-    <div>Cards</div>
+    <div>hello</div>
   )
 }
 

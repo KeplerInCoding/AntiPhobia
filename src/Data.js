@@ -1,7 +1,7 @@
 const Data = [
     // Fears related to animals
     {
-      group: "Fears related to animals",
+      // group: "Fears related to animals",
       phobias1: [
         {
           id: 1,
