@@ -14,16 +14,16 @@ const Navbar = () => {
     <nav>
       <ul className='flex flex-wrap place-content-evenly gap-10 text-blue-900 text-3xl font-mono font-extrabold pl-10'>
         <li>
-          <NavLink className="hover:text-blue-800 hover:underline" exact activeClassName="active" to='/'>Home</NavLink>
+          <NavLink className="hover:text-blue-800" exact activeClassName="active" to='/'>Home</NavLink>
         </li>
         <li>
-          <NavLink className="hover:text-blue-800 hover:underline" activeClassName="active" to='/phobias'>Phobias</NavLink>
+          <NavLink className="hover:text-blue-800" activeClassName="active" to='/phobias'>Phobias</NavLink>
         </li>
         <li>
-          <NavLink className="hover:text-blue-800 hover:underline" activeClassName="active" to='/explore'>Explore</NavLink>
+          <NavLink className="hover:text-blue-800" activeClassName="active" to='/explore'>Explore</NavLink>
         </li>
         <li>
-          <NavLink className="hover:text-blue-800 hover:underline" activeClassName="active" to='/chatbot'>ChatBot</NavLink>
+          <NavLink className="hover:text-blue-800" activeClassName="active" to='/chatbot'>ChatBot</NavLink>
         </li>
       </ul>
     </nav>

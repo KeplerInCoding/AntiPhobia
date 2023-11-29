@@ -25,7 +25,7 @@ const Home = () => {
             </h2>
           </div>
           <NavLink to="/phobias">
-            <div className="flex border border-white px-3 py-1 rounded-full justify-center items-center gap-2 text-xl font-bold bg-black/20">
+            <div className="flex border border-white text-white px-3 py-1 rounded-full justify-center items-center gap-2 text-xl font-bold bg-black/20 hover:bg-black/40">
             <div>Explore more</div>
             <div>
               <FontAwesomeIcon icon={faArrowRight} />

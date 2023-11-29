@@ -1,74 +1,68 @@
 import React from 'react'
-import './phobias.css';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 const Phobias = () => {
   return (
-    <div className='pt-10'>
-      <div>
-        <div class="box-canvas">
-          <div class="inner">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="spider">
-            <div class="body">
-              <div class="leg left"></div>
-              <div class="leg right"></div>
-            </div>
-          </div>
-        </div>
+    <div className='w-screen h-fit'>
 
-    </div>
+        <div className='w-[600px] flex flex-col p-10 pt-32 gap-12 text-2xl font-serif font-extrabold'>
 
-        <div className='w-screen h-screen absolute flex place-content-between top-0 items-center'>
-          
-          <div className='flex gap-28 flex-col ml-10 mt-20'>
+                <NavLink to={`/phobias/phobias1`}>
+                  <div className="flex border border-white text-white py-1 rounded-full place-content-between px-6 gap-2 text-xl font-bold bg-black/50 hover:bg-black/60">
+                  <div>Fears related to animals</div>
+                  <div>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                  </div>
+                  </div>
+                </NavLink>
 
-                  <NavLink to={`/phobias/phobias1`}>
-                  <div className=' 
-                  bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears related to animals</div>
-                  </NavLink>
-
-                  <NavLink to={`/phobias/phobias2`}>
-                  <div className=' 
-                  bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears related to natural environment</div>
-                  </NavLink>
-
-                  <NavLink to={`/phobias/phobias5`}>
-                  <div className=' 
-                  bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Other Phobias</div>
-                  </NavLink>
-                
-
-          
-          </div>
-
-          <div className='flex gap-28 flex-col mr-10  mt-20'>
-
-                <NavLink  to={`/phobias/phobias4`}>
-                <div className=' 
-                bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears related to specific situations</div>
+                <NavLink to={`/phobias/phobias2`}>
+                  <div className="flex border border-white text-white py-1 rounded-full place-content-between px-6 gap-2 text-xl font-bold bg-black/50 hover:bg-black/60">
+                  <div>Fears related to natural environment</div>
+                  <div>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                  </div>
+                  </div>
                 </NavLink>
 
                 <NavLink to={`/phobias/phobias3`}>
-                <div className=' 
-                bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears rlated to blood, injury, or medical issues</div>
+                  <div className="flex border border-white text-white py-1 rounded-full place-content-between px-6 gap-2 text-xl font-bold bg-black/50 hover:bg-black/60">
+                  <div>Fears rlated to blood, injury, or medical issues</div>
+                  <div>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                  </div>
+                  </div>
+                </NavLink>
+
+                <NavLink to={`/phobias/phobias4`}>
+                  <div className="flex border border-white text-white py-1 rounded-full place-content-between px-6 gap-2 text-xl font-bold bg-black/50 hover:bg-black/60">
+                  <div>Fears related to specific situations</div>
+                  <div>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                  </div>
+                  </div>
+                </NavLink>
+
+                <NavLink to={`/phobias/phobias5`}>
+                  <div className="flex border border-white text-white py-1 rounded-full place-content-between px-6 gap-2 text-xl font-bold bg-black/50 hover:bg-black/60">
+                  <div>Other Phobias</div>
+                  <div>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                  </div>
+                  </div>
                 </NavLink>
 
                 <NavLink to={`/phobias/phobias6`}>
-                <div className=' 
-                bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>All Phobias</div>
+                  <div className="flex border border-white text-white py-1 rounded-full place-content-between px-6 gap-2 text-xl font-bold bg-black/50 hover:bg-black/60">
+                  <div>All Phobias</div>
+                  <div>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                  </div>
+                  </div>
                 </NavLink>
-          </div>
         </div>
       
     </div>
