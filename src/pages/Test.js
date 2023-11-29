@@ -1,9 +1,9 @@
 import React from 'react';
 import data from '../Data';
 import { useParams } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
-
-const CategoryPage = () => {
+const Test = () => {
   //For getting the Phobia
   const { category } = useParams();
 //   const location = useLocation();
@@ -13,6 +13,7 @@ const CategoryPage = () => {
 
   return (
     <div>
+      <Navbar></Navbar>
         <div>hello</div>
         {data.map((phobias, index) =>
         phobias && phobias.hasOwnProperty(`${category}`)
@@ -30,4 +31,4 @@ const CategoryPage = () => {
   );
 };  
 
-export default CategoryPage;
+export default Test;
