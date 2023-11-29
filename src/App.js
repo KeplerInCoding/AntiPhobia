@@ -4,6 +4,7 @@ import Home from "./pages/Home.js";
 import ChatBot from "./pages/ChatBot.js";
 import Phobias from "./pages/Phobias.js"
 import ExploreVR from "./pages/Explore_VR.js";
+import CategoryPage from "./pages/CategoryPage.js";
 import {Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/phobias" element={<Phobias/>}></Route>
         <Route path="/chatbot" element={<ChatBot/>}></Route>
         <Route path="/explore" element={<ExploreVR/>}></Route>
+        <Route path="/phobias/:category" element={<CategoryPage />} />
       </Routes>
     </div>
 
