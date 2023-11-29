@@ -1,12 +1,11 @@
 import React from "react";
-import bvideo from "../assets/bVideo.mp4";
+import v from "../assets/background_video.mp4";
 import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     
       <div className="main h-screen">
-        <div className="overlay"></div>
-        <video src={bvideo} autoPlay muted loop></video>
+        <video src={v} autoPlay muted loop></video>
         <div className="content ">
           <div className=" backdrop-blur-sm bg-black/10 border-2 border-white h-[450px] w-[930px] rounded-sm flex flex-col items-center justify-center gap-20 shadow-2xl shadow-red-900">
           <h1 className=" font-sans font-extrabold text-5xl text-red-100">Embark on a Journey Beyond Phobias</h1>
