@@ -2,7 +2,7 @@ const Data = [
     // Fears related to animals
     {
       group: "Fears related to animals",
-      phobias: [
+      phobias1: [
         {
           id: 1,
           name: "Arachnophobia",
@@ -23,8 +23,8 @@ const Data = [
   
     // Fears related to the natural environment
     {
-      group: "Fears related to the natural environment",
-      phobias: [
+      // group: "Fears related to the natural environment",
+      phobias2: [
         {
           id: 3,
           name: "Acrophobia",
@@ -45,8 +45,8 @@ const Data = [
   
     // Fears related to blood, injury, or medical issues
     {
-      group: "Fears related to blood, injury, or medical issues",
-      phobias: [
+      // group: "Fears related to blood, injury, or medical issues",
+      phobias3: [
         {
           id: 5,
           name: "Trypanophobia",
@@ -67,8 +67,8 @@ const Data = [
   
     // Fears related to specific situations
     {
-      group: "Fears related to specific situations",
-      phobias: [
+      // group: "Fears related to specific situations",
+      phobias4: [
         {
           id: 7,
           name: "Aviophobia",
@@ -89,8 +89,8 @@ const Data = [
   
     // Other phobias
     {
-      group: "Other",
-      phobias: [
+      // group: "Other",
+      phobias5: [
         {
           id: 9,
           name: "Cherophobia",
