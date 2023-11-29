@@ -21,7 +21,7 @@ function App() {
         <Route path="/chatbot" element={<ChatBot/>}></Route>
         <Route path="/explore" element={<ExploreVR/>}></Route>
         <Route path="/phobias/:category" element={<CategoryPage />} />
-        <Route path="/test" element={<Test/>}></Route>
+        <Route path="/test/:category" element={<Test/>}></Route>
       </Routes>
     </div>
 
