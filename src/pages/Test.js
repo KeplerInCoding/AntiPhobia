@@ -8,8 +8,8 @@ import { useParams } from 'react-router-dom';
 const CategoryPage = () => {
   //For getting the Phobia
   const { category } = useParams();
-  // const location = useLocation();
-  // const category = location.pathname.split('/').at(-1);
+//   const location = useLocation();
+//   const category = location.pathname.split('/').at(-1);
   console.log(category);
   
 
