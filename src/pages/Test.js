@@ -1,6 +1,4 @@
 import React from 'react';
-import Cards from '../components/Cards';
-import { useLocation } from 'react-router-dom';
 import data from '../Data';
 import { useParams } from 'react-router-dom';
 

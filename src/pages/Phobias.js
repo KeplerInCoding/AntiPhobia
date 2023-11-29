@@ -40,13 +40,14 @@ const Phobias = () => {
 
                   <NavLink to={`/phobias/phobias2`}>
                   <div className=' 
-                  bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears related to blood, injury, or medical issues</div>
+                  bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears related to natural environment</div>
                   </NavLink>
 
-                  <NavLink to={`/phobias/phobias3`}>
+                  <NavLink to={`/phobias/phobias5`}>
                   <div className=' 
                   bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Other Phobias</div>
                   </NavLink>
+                
 
           
           </div>
@@ -55,12 +56,12 @@ const Phobias = () => {
 
                 <NavLink  to={`/phobias/phobias4`}>
                 <div className=' 
-                bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears related to the natural environment</div>
+                bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears related to specific situations</div>
                 </NavLink>
 
-                <NavLink to={`/phobias/phobias5`}>
+                <NavLink to={`/phobias/phobias3`}>
                 <div className=' 
-                bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears related to specific situations</div>
+                bg-gradient-to-tr from-slate-800 text-center font-mono text-xl rounded-full shadow-lg shadow-orange-900 hover:scale-125 hover:shadow-xl hover:shadow-orange-800 font-extrabold to-red-900 p-3 w-96 duration-200'>Fears rlated to blood, injury, or medical issues</div>
                 </NavLink>
 
                 <NavLink to={`/phobias/phobias6`}>
