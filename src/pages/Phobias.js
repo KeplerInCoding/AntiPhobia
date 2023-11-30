@@ -6,7 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Phobias = () => {
   return (
-    <div className='w-screen h-fit'>
+    <div className='w-screen h-fit bg-gradient-to-br from-slate-100 to-gray-300'>
 
         <div className='w-[600px] flex flex-col p-10 pt-32 gap-12 text-2xl font-serif font-extrabold'>
 
