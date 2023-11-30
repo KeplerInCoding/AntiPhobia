@@ -2,13 +2,14 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import imag from "../assets/phobiaPageImg.jpg"
 
 
 const Phobias = () => {
   return (
-    <div className='w-screen h-fit bg-gradient-to-br from-slate-100 to-gray-300'>
+    <div className='w-screen h-fit bg-gradient-to-br from-slate-100 to-gray-300 flex items-center'>
 
-        <div className='w-[600px] flex flex-col p-10 pt-32 gap-12 text-2xl font-serif font-extrabold'>
+        <div className='w-[600px] flex flex-col p-10 py-24 gap-5 text-2xl font-serif font-extrabold'>
 
                 <NavLink to={`/phobias/phobias1`}>
                   <div className="flex border border-white text-white py-1 rounded-full place-content-between px-6 gap-2 text-xl font-bold bg-black/50 hover:bg-black/60">
@@ -63,6 +64,9 @@ const Phobias = () => {
                   </div>
                   </div>
                 </NavLink>
+        </div>
+        <div className='py-24 m-10 '>
+          <img className=' rounded-full shadow-2xl shadow-gray-800' src={imag} alt="scared child"></img>
         </div>
       
     </div>

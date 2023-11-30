@@ -1,6 +1,8 @@
 import React from 'react';
 import data from '../Data';
 import { useParams } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 const CategoryPage = () => {
@@ -19,6 +21,12 @@ const CategoryPage = () => {
           <h1 className=' text-3xl font-extrabold text-gray-700 mb-5'>{phobia.name}</h1>
           <h2 className='text-black/70 font-mono mb-2'>"{phobia.meaning}"</h2>
           <h3 className=' text-gray-600 text-lg'>{phobia.description}</h3>
+          <div className="flex border w-56 border-white text-white px-3 py-1 rounded-full justify-center items-center gap-2 text-xl font-bold bg-blue-500/60 hover:bg-black/50">
+            <div>View in VR</div>
+            <div>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
+            </div>
           </div>
           <img className='m-4 border-white h-48 rounded-sm border' src={phobia.image} alt={phobia.name}></img>
         </div>)
