@@ -23,7 +23,7 @@ const ExploreVR = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen"
         allowfullscreen="allowfullscreen"
       ></iframe>
-      <h1>ALone</h1>
+      <h1>ALone wala Fear Cautasutrophobia</h1>
       <iframe
        width="300"
        height="200"
