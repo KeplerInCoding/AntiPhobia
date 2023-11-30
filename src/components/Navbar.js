@@ -4,8 +4,7 @@ import logo from "../assets/AntiPhobia.png";
 
 const Navbar = () => {
   return (
-    <div className='relative top-0 z-40 w-screen'>
-
+    <div className='absolute top-0 z-40 w-screen'>
 <div className='flex h-24 place-content-evenly gap-52 items-center py-2  bg-gradient-to-t from-slate-100/5 to-blue-400 backdrop-blur-sm'>
 <div>
       <Link to="/"><img className=' z-50 absolute top-[-30px] h-32' src={logo}  alt="logo" loading="lazy"></img></Link>
